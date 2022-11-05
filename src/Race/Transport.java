@@ -10,6 +10,7 @@ public class Transport <T extends Drivers & Actions>{
     }
 
     public void controlled(T drivers) {
+
         System.out.println("Водитель " + drivers.getFullName() +
                 ", имеет категорию: " + drivers.getTypeCategory() +
                  ", управляет " + drivers.getRightDriveClassAuto() + ", учавствовует в заезде, и "
@@ -17,6 +18,8 @@ public class Transport <T extends Drivers & Actions>{
 
         System.out.println("Водитель " + drivers.getFullName() + " " + drivers.stop() + ". ");
         System.out.println("Водитель " + drivers.getFullName() + " " + drivers.refuelTheCar() + ". ");
+        System.out.println("***************************************************************************" +
+                "************************************************************");
     }
 
     public String getTypeTransport() {

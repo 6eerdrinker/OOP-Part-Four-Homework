@@ -16,10 +16,14 @@ public class raceMain {
         driverB.setFullName("Иванов Иван Иванович");
         driverB.setTypeCategory("B");
         driverB.setRightDriveClassAuto("легковым автомобилем");
+        System.out.println("***************************************************************************" +
+                "************************************************************");
+
 
         driverC.setFullName("Петров Владимир Сергеевич");
         driverC.setTypeCategory("C");
         driverC.setRightDriveClassAuto("грузовым автомобилем");
+
 
         driverD.setFullName("Ситов Александр Юрьевич");
         driverD.setTypeCategory("D");
